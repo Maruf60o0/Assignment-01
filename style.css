@@ -1,9 +1,10 @@
 body{
     margin: 0%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header{
-    background-image: url("images/donation7.jpg");
+    background-image: url("/images/donation7.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
@@ -29,4 +30,126 @@ p{
     font-weight: 700;
     color: white;
 }
+.donateT{
+    text-align: center;
+}
+.donate-des{
+    margin-top: 150px;
+}
+.donate-p{
+    color: #707070;
+    padding-bottom: 60px;
+}
+.d-amount h3{
+    display: inline;
+    font-size: 40px;
+    margin: 40px 30px;
+    color: #707070;
+}
+.second{
+    border: 2px solid #FF5959;
+    background-color: rgb(248, 206, 206);
+    color: #e40f0f;
+    border-radius: 3px;
+    padding: 20px 30px;
+}
+.other-amount{
+    margin: 60px;
+    color: #B3B3B3;
+}
+hr{
+    width: 70%;
+    color:#B3B3B3;
+}
+.donate-button2 {
+    text-decoration: none;
+    background-image: linear-gradient(#FF5959, tomato);
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+    font-size: 22px;
+}
+.donateP{
+    margin-top: 30px;
+    text-align: center;
+}
+.donate-plan{
+    display: flex;
+}
+.plan{
+    margin:30px 20px;
+    padding: 30px;
+}
+.para1{
+    background-color: #EDF5F6;
+}
+.para2{
+    background-color: #FFEEEE;
+}
+.para3{
+    background-color: #FFF4D6;
+}
 
+.your-donation{
+    display: flex;
+    margin-top: 70px;
+    text-align: center;
+}
+.description{
+    width: 50%;
+    padding: 65px;
+}
+.description img{
+    width: 80%;
+    height: 100%;
+    border-radius: 3px;
+}
+.to-survive{
+    display: flex;
+    margin-top: 110px;
+    text-align: center;
+}
+.updates{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.email{
+    border: 2px solid #FFF4D6;
+    background-color: #FFF4D6;
+    padding: 95px 0 95px 0;
+    margin: 0 180px 0 180px;
+}
+.emleml{
+    background-color: #D9D9D9;
+    height: 36px;
+    width: 330px;
+    border: 5px solid #D9D9D9;
+}
+.subsbtn{
+    text-decoration: none;
+    background-image: linear-gradient(#FF5959, tomato);
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+    margin: 0 -5px;
+}
+
+
+footer{
+    background-color: #0B0D17;
+    color: #D9D9D9;
+    padding: 60px 0 60px 0;
+    text-align: center;
+}
+#footheader{
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: #FF5959;
+    font-size: 30px;
+}
+footer p{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-weight: 200;
+}
